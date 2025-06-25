@@ -135,11 +135,9 @@ ypos.addEventListener("input", function() {
 });
 color.addEventListener("input", function() {
     if (parseInt(elements.value) % 10 == 0) {
-        document.getElementById(`chk${elements.value}`).style.color = `${color.value}`;
         document.getElementById(`chkl${elements.value}`).style.color = `${color.value}`;
     }
     else {
-        document.getElementById(`txt${elements.value}`).style.color = `${color.value}`;
         document.getElementById(`txtl${elements.value}`).style.color = `${color.value}`;
     }
 });
