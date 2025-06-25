@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>To-Do App</title>
+
+    <link rel="icon" href="./res/favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    
+    <div id="Tools">
+        <button id="new" onclick="addElement()">+</button>
+        <select name="Select" id="Select">
+            <option value="Select" selected>Select</option>
+            <optgroup label="Task Manager">
+                <option value="CheckList">Check List</option>
+                <option value="Text">Text</option>
+            </optgroup>
+        </select>
+        <select name="elements" id="elements">
+            <option value="Select" selected>Select</option>
+            <optgroup id="opt1" label="Check List"></optgroup>
+            <optgroup id="opt2" label="Text"></optgroup>
+        </select>
+
+        <textarea disabled maxlength="6" name="size" id="size" rows="2" cols="4"></textarea>
+        <textarea disabled maxlength="6" name="xpos" id="xpos" rows="2" cols="4"></textarea>
+        <textarea disabled maxlength="6" name="ypos" id="ypos" rows="2" cols="4"></textarea>
+        <textarea disabled maxlength="10" name="color" id="color" rows="2" cols="20"></textarea>
+        
+        <button onclick="deleteItem()" id="delete">Delete</button>
+
+        <button onclick="openMenu()" id="menu">Menu</button>
+    </div>
+
+    <form id="form">
+    </form>
+
+    <script src="function.js"></script>
+</body>
+</html>
