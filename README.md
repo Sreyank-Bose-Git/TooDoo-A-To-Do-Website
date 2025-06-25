@@ -6,3 +6,5 @@ This app is made by mainly me with a little help from friends for a school proje
 ## This is made officially by Sreyank Bose
 
 ---
+
+![This is the second image](./Photo2)
