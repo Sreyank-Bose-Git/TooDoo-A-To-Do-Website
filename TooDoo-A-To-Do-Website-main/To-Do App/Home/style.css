@@ -1,0 +1,66 @@
+body {
+    background-image: linear-gradient(120deg ,#15FF, #00FFFF,#6004, #7893);
+    text-align: center;
+}
+#bar {
+    background-color: blueviolet;
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+}
+a {
+    text-decoration: none;
+    font-family: cursive;
+    font-size: 35px;
+    margin-left: 20px;
+}
+pre {
+    font-size: 50px;
+    text-align: center;
+}
+#abc {
+    font-size: 100px;
+    color:bisque;
+
+}
+#ab {
+    font-size: 60px;
+}
+#collab {
+    background-color: crimson;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+#abcd {
+    font-size: 20px;
+}
+#about {
+    font-size:  32px;
+}
+#qna {
+    background-color: hsla(125, 66%, 28%, 0.575);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 100%;
+    height: 860px;
+    text-align: left;
+    padding: 20px;
+}
+#qnabar {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    width: fit-content;
+    background-color: hsla(204, 85%, 45%, 0.555);
+    height: 20px;
+}
+#qnabar2 {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    background-color: hsla(29, 100%, 50%, 0.849);
+    margin-bottom: 20px;
+}
